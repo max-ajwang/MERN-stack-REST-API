@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Labeka Blogging Website",
+  "main": "script.js",
+  "scripts": {
+    "start":"nodemon server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/max-ajwang/portfolio.git"
+  },
+  "author": "Max Ajwang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/max-ajwang/portfolio/issues"
+  },
+  "homepage": "https://github.com/max-ajwang/portfolio#readme",
+  "dependencies": {
+    "express-fileupload": "^1.4.0",
+    "express.js": "^1.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
