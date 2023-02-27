@@ -4,49 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Home - Labeka  </title>
+  <title> Editor - Labeka  </title>
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
   <link href="css/home.css" rel="stylesheet" type="text/css" />
+  <link href="css/editor.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-
-  <nav class="navbar">
-    <img src="img/logo.png" class="logo" alt="Labeka">
-    <ul class="links-container">
-      <li class="link-item"><a href="/" class="link">home</a></li>
-      <li class="link-item"><a href="/editor" class="link">editor</a></li>
-    </ul>
-  </nav>
-
-  <header class="header">
-    <div class="content">
-      <h1 class="heading">
-        <span class="small">Welcome to Labeka</span>
-        A collection of tools and resources to accompany the modern entrepreneur.
-        <span class="no-fill">  </span>
-      </h1>
-      <a href="/editor" class="btn">write a blog</a>
-    </div>
-  </header> 
-
-  <section class="blogs-section">
-    <div class="blog-card">
-      <img src="img/header.png" class="blog-image" alt="">
-      <h1 class="blog-title">How to Prepare an Operations Plan for your Small Business</h1>
-      <p class="blog-overview">An operations plan is straightforward, but devote sufficient time to draft one — don't cut corners. These five basic steps can help you create your own:</p>
-      <a href="/" class="btn dark">read</a>
-    </div>
-  </section>
-
-<!--  <p>Welcome to my online home! I'm a software engineer living in Nairobi, Kenya. 
-        By day, I work at <a href="">###</a> where I build tools to help the modern entrepreneur
-        level up financially, mentally, and physically. Outside work you'll find me here 
-        writing about my passions and journaling my entrepreneurial journey 
-      </p>
-      <a href="about.html">[continue...]</a>
-    </div>
-
-  <script src="script.js"></script>--> 
+  <div class="banner">
+    <input type="file" accept="image/*" id="banner-upload" hidden>
+    <label for="banner-upload" class="banner-upload-btn"><img src="img/upload.png" alt="upload banner"></label>
+  </div>
 </body>
 </html>
