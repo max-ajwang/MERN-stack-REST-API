@@ -4,8 +4,8 @@
   "description": "Labeka Blogging Website",
   "main": "script.js",
   "scripts": {
-    "start":"nodemon server.js"
-},
+    "start": "nodemon server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/max-ajwang/portfolio.git"
@@ -19,6 +19,8 @@
   "dependencies": {
     "express-fileupload": "^1.4.0",
     "express.js": "^1.0.0",
-    "nodemon": "^2.0.20"
+    "gh-pages": "^5.0.0",
+    "nodemon": "^2.0.20",
+    "save-dev": "^0.0.1-security"
   }
 }
