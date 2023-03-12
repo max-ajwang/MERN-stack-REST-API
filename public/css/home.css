@@ -43,13 +43,14 @@ body{
 .header{
     margin-top: 0px;
     width: 100%;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 400px);
     /*background: url(../img/header.jfif);*/
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: beige;
+    background-color: inherit;
+    padding: 50px 5vw;
 }
 
 .content{
@@ -58,17 +59,16 @@ body{
 
 .heading{
     color: black;
-    text-transform: capitalize;
     font-size: 20px;
     line-height: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .btn{
     padding: 10px 20px;
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.7);
-    color: #000;
+    background: black;
+    color: white;
     text-decoration: none;
     text-transform: capitalize;
 }
