@@ -11,7 +11,7 @@ body{
     position: relative;
     background-color: white;
     color: black;
-    font-family: Verdana, Arial, sans-serif;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 /* End of All tags and boby tag */
 
@@ -56,7 +56,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: burlywood;
+    background-color: white;
     padding: 50px 5vw;
 }
     
