@@ -1,111 +1,135 @@
-/* All tags and boby tag */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    /*padding: 60px;*/
-    width: 100%;
-    position: relative;
-    background-color: white;
-    color: black;
-    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-}
-/* End of All tags and boby tag */
-
-/* Beginning of navigation bar section*/
-.navbar{
-    width: 100%;
-    height: 70px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 5vw;
-    background: inherit;
-    z-index: 9;
-    color: black;
-}
-
-.links-container{
-    display: flex;
-    list-style: none;
-}
-
-.link{
-    padding: 10px;
-    margin-left: 10px;
-    text-decoration: none;
-    text-transform: capitalize;
-    color: black;
-}
-/* End of navigation bar section*/
-
-/* Beginning of header section */
-.header{
-    margin-top: 70px;
-    width: 100%;
-    height: calc(100vh - 400px);
-    /*background: url(../img/header.jfif);*/
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    padding: 50px 5vw;
-}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
     
-.content{
-    text-align: center;
-    height: 375px;
 }
 
-.heading{
-    color: black;
-    font-size: 20px;
-    line-height: 60px;
-    margin-bottom: 30px;
-}
-    
-.btn{
-    padding: 10px 20px;
-    border-radius: 10px;
-    background: black;
-    color: white;
-    text-decoration: none;
-    text-transform: capitalize;
-}
-/* End of header section*/
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
 
-/* Beginning of blog section*/
-.blogs-section{
-    width: 100%;
-    padding: 50px 5vw;
-    display: grid;
-    grid-template-columns: 450px 450px 450px;
-    grid-gap: 50px;
 }
 
-.blog-image{
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 10px;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
 }
 
-.blog-overview{
-    margin: 10px 0 20px;
-    line-height: 30px;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
 }
 
-.btn.dark{
-    background: #1b1b1b;
-    color: #fff;
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* All tags and body tag */
+    body{
+        /*padding: 60px;*/
+        width: 100%;
+        position: relative;
+        background-color: white;
+        color: black;
+        font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    }
+    /* End of All tags and boby tag */
+
+    /* Beginning of navigation bar section*/
+    .navbar{
+        width: 100%;
+        height: 70px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5vw;
+        background: inherit;
+        z-index: 9;
+        color: black;
+    }
+
+    .links-container{
+        display: flex;
+        list-style: none;
+    }
+
+    .link{
+        padding: 10px;
+        margin-left: 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+        color: black;
+    }
+    /* End of navigation bar section*/
+
+    /* Beginning of header section */
+    .header{
+        margin-top: 70px;
+        width: 100%;
+        height: calc(100vh - 400px);
+        /*background: url(../img/header.jfif);*/
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        padding: 50px 5vw;
+    }
+        
+    .content{
+        text-align: center;
+        height: 375px;
+    }
+
+    .heading{
+        color: black;
+        font-size: 20px;
+        line-height: 60px;
+        margin-bottom: 30px;
+    }
+        
+    .btn{
+        padding: 10px 20px;
+        border-radius: 10px;
+        background: black;
+        color: white;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    /* End of header section*/
+
+    /* Beginning of blog section*/
+    .blogs-section{
+        width: 100%;
+        padding: 50px 5vw;
+        display: grid;
+        grid-template-columns: 450px 450px 450px;
+        grid-gap: 50px;
+    }
+
+    .blog-image{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .blog-overview{
+        margin: 10px 0 20px;
+        line-height: 30px;
+    }
+
+    .btn.dark{
+        background: #1b1b1b;
+        color: #fff;
+    }
+    /* End of blog section*/
 }
-/* End of blog section*/
