@@ -1,26 +1,33 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Labeka Blogging Website",
-  "main": "script.js",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon server.js"
+    "server": "nodemon server --ignore client",
+    "client": "npm start --prefix client",
+    "start": "concurrently --kill-others-on-fail \" npm run server\" \" npm run client \""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/max-ajwang/portfolio.git"
-  },
+  "keywords": [],
   "author": "Max Ajwang",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/max-ajwang/portfolio/issues"
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
   },
-  "homepage": "https://github.com/max-ajwang/portfolio#readme",
   "dependencies": {
-    "express-fileupload": "^1.4.0",
-    "express.js": "^1.0.0",
-    "gh-pages": "^5.0.0",
-    "nodemon": "^2.0.20",
-    "save-dev": "^0.0.1-security"
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-error": "^0.0.2",
+    "express-async-errors": "^3.1.1",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.1",
+    "morgan": "^1.10.0",
+    "react-icons": "^4.7.1",
+    "validator": "^13.7.0"
   }
 }
