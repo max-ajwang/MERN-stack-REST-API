@@ -9,12 +9,19 @@ body {
  background: #f1f5f8;
 }
 
+
+
+
+
 .booklist {
- width: 90vw;
- max-width: 1170px;
- margin: 5rem auto;
- display: grid;
- gap: 2rem;
+    width: 90vw;
+    max-width: 1400px;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    gap: 2rem;
 }
 
 @media screen and (min-width: 768px) {
