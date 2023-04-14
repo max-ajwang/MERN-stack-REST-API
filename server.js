@@ -1,6 +1,6 @@
-const express = require('express');
-const path = require('path');
-const fileupload = require('express-fileupload');
+import express from 'express';
+import path from 'path';
+import fileupload from 'express';
 
 let initial_path = path.join(__dirname, "public");
 

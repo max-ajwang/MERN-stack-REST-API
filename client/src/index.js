@@ -4,6 +4,9 @@ import ReactDom from "react-dom";
 
 //CSS
 import './index.css'
+import {blogs} from './components/BlogCard/blogs'
+import BlogCard from "./components/BlogCard/BlogCard";
+
 import {books} from './components/Book/books'
 import Book from './components/Book/Book'
 
@@ -28,6 +31,16 @@ function App () {
           <Route path='/sign-up' component={SignUp} />
         </Routes>
       </Router>
+
+      <section className="bloglist">
+        {blogs.map((blog) => {
+          return (
+            <BlogCard key={blog.id} blog={blog}>
+
+            </BlogCard>
+          );
+        })}
+      </section>
 
       <section className="booklist">
         {books.map((book) => {
