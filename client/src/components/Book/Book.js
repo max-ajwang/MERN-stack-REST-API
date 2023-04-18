@@ -1,4 +1,5 @@
 import React from 'react'
+import './book.css'
 
 const Book = (props) => {
   const {img, title, author} = props.book;
