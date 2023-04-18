@@ -14,7 +14,7 @@ const Navbar = () => {
     <>
       <Nav>
         <NavLogo to='/'>
-          Max Ajwang'
+          WBM
         </NavLogo>
 
         <Bars />
