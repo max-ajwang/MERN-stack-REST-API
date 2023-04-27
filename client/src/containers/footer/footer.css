@@ -61,6 +61,7 @@
 .gpt3__footer-links_logo {
     display: flex;
     flex-direction: column;
+    color:#fff;
 }
 
 .gpt3__footer-links_logo img {
