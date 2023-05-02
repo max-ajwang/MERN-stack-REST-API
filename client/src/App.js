@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Footer, Blog } from './containers';
+import { Blog } from './containers';
 import { Navbar } from './components';
 //CSS
 import './App.css';
@@ -14,7 +14,6 @@ function App () {
         <Navbar />
       </div>
       <Blog />
-      <Footer />
     </div>
   )
 }

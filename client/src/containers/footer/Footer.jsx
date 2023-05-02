@@ -9,7 +9,7 @@ const Footer = () => (
 
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
-        <h1> MaxAjwang </h1>  
+        <h1> Max Ajwang' </h1>  
         <p> All Rights Reserved </p>
       </div>
       <div className="gpt3__footer-links_div">
@@ -22,7 +22,7 @@ const Footer = () => (
     </div>
 
     <div className="gpt3__footer-copyright">
-      <p>@2023 MaxAjwang. All rights reserved.</p>
+      <p>@2023 maxajwang. All rights reserved.</p>
     </div>
   </div>
 );
