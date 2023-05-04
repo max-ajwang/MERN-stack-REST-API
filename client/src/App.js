@@ -1,9 +1,8 @@
 import React from 'react'
-
-import { Blog, Header } from './containers';
-import { Navbar } from './components';
 //CSS
-import './App.css';
+import './assets/css/App.css';
+import { Navbar, Header } from './components';
+
 
 //create function based component and capitalize the first letter of the function name. 
 //return JSX (html to be displayed in index.html)
@@ -14,7 +13,6 @@ function App () {
         <Navbar />
         <Header />
       </div>
-      <Blog />
     </div>
   )
 }
