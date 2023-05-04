@@ -18,6 +18,10 @@
     color: #fff;
 }
 
+.gpt3__navbar-links_logo h2 {
+    font-family: var(--font-family);
+}
+
 .gpt3__navbar-links_logo img {
     width: 62.56px;
     height: 16.02px;
