@@ -1,6 +1,5 @@
 import React from 'react'
 import { Navbar } from '../components';
-import styled from 'styled-components'
 
 function Landing() {
   return (

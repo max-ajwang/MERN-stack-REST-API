@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import './navbar.css';
+import Wrapper from '../../assets/wrappers/Navbar'
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -49,5 +49,8 @@ const Navbar = () => {
   );
 };
 
+
 export default Navbar;
+
+
 
