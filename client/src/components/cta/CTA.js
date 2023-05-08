@@ -1,16 +1,20 @@
-import React from 'react';
-import './cta.css';
+import React from 'react'
+import Wrapper from '../../assets/wrappers/CTA'
 
-const CTA = () => (
-  <div className="gpt3__cta">
-    <div className="gpt3__cta-content">
-      <p>Request Early Access to Get Started</p>
-      <h3>Register Today & start exploring the endless possibilities.</h3>
-    </div>
-    <div className="gpt3__cta-btn">
-      <button type="button">Get Started</button>
-    </div>
-  </div>
-);
+const CTA = () => {
+  return (
+    <Wrapper>
+      <div className='gpt3__cta'>
+        <div className='gpt3__cta-content'>
+          <p>Request Early Access to Get Started</p>
+          <h3>Register Today & start exploring the endless possibilities.</h3>
+        </div>
+        <div className='gpt3__cta-btn'>
+          <button type='button'>Get Started</button>
+        </div>
+      </div>
+    </Wrapper>
+  )
+}
 
-export default CTA;
+export default CTA

@@ -1,29 +1,31 @@
-import React from 'react';
-import people from '../../assets/img/people.png';
-import ai from '../../assets/img/ai.png';
-import './header.css';
+import React from 'react'
+import Wrapper from '../../assets/wrappers/Header'
+import ai from '../../assets/img/ai.png'
 
-const Header = () => (
-  <div className="gpt3__header section__padding" id="home">
-    <div className="gpt3__header-content">
-      <h1>Tools and resources for the modern entrepreneur.</h1>
-      <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+const Header = () => {
+  return (
+    <Wrapper>
+      <div className='gpt3__header section__padding' id='home'>
+        <div className='gpt3__header-content'>
+          <h1>Tools and resources for the modern entrepreneur.</h1>
+          <p>
+            We are building a set of tools and resources for modern
+            entrepreneurs to plan and manage their businesses online. Enter your
+            email to get early access.
+          </p>
 
-      <div className="gpt3__header-content__input">
-        <input type="email" placeholder="Your Email Address" />
-        <button type="button">Get Started</button>
+          <div className='gpt3__header-content__input'>
+            <input type='email' placeholder='Your Email Address' />
+            <button type='button'>Get Started</button>
+          </div>
+        </div>
+
+        <div className='gpt3__header-image'>
+          <img src={ai} alt='AI' />
+        </div>
       </div>
+    </Wrapper>
+  )
+}
 
-      <div className="gpt3__header-content__people">
-        <img src={people} alt='People'/>
-        <p>1,600 people requested access in the last 24 hours</p>
-      </div>
-    </div>
-
-    <div className="gpt3__header-image">
-      <img src={ai} alt='AI'/>
-    </div>
-  </div>
-);
-
-export default Header;
+export default Header
