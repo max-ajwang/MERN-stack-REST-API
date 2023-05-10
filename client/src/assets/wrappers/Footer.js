@@ -1,12 +1,11 @@
 import styled from 'styled-components'
 
-const Wrapper = styled.div`
+const Wrapper = styled.footer`
   .gpt3__footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     background: var(--color-footer);
   }
 

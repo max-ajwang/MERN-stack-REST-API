@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Header, Blog, Footer, CTA } from '../components'
+import { Navbar, Header, Blog, Footer } from '../components'
 
 function Landing() {
   return (
@@ -9,7 +9,6 @@ function Landing() {
         <Header />
       </div>
       <Blog />
-      <CTA />
       <Footer />
     </div>
   )
