@@ -1,6 +1,6 @@
 # Labeka
 
-#### Track Your essay orders
+#### Resources center for the modern entrepreneur
 
 Project in Action - [Labeka](https://www.maxajwang.com/)
 
