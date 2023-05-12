@@ -1,8 +1,8 @@
-# Labeka - My portfolio website
+# Labeka
 
 #### Track Your essay orders
 
-Project in Action - [Leverpapers](https://www.leverpapers.com/)
+Project in Action - [Labeka](https://www.maxajwang.com/)
 
 #### Support
 
