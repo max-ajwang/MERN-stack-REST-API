@@ -22,12 +22,6 @@ const Navbar = () => {
             <p>
               <a href='#wgpt3'>About</a>
             </p>
-            <p>
-              <a href='#possibility'>Portfolio</a>
-            </p>
-            <p>
-              <a href='#features'>Hire me</a>
-            </p>
           </div>
         </div>
         <div className='navbar-sign'>
@@ -59,12 +53,6 @@ const Navbar = () => {
                 </p>
                 <p>
                   <a href='#wgpt3'>About</a>
-                </p>
-                <p>
-                  <a href='#possibility'>Portfolio</a>
-                </p>
-                <p>
-                  <a href='#features'>Hire me</a>
                 </p>
               </div>
               <div className='navbar-menu-container-links-sign'>
