@@ -1,0 +1,10 @@
+import React from 'react'
+import logo from '../assets/img/logo.png'
+
+const Logo = () => {
+  return (
+    <img src={logo} alt='Max Ajwang' className='logo'/>
+  )
+}
+
+export default Logo

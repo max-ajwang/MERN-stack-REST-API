@@ -1,5 +1,7 @@
+export { default as Logo } from './Logo'
+
 export { default as Article } from './article/Article'
-export { default as Navbar } from './navbar/Navbar'
-export { default as Blog } from './blog/Blog'
-export { default as Footer } from './footer/Footer'
-export { default as Header } from './header/Header'
+export { default as Navbar } from './Navbar'
+export { default as Blog } from './Blog'
+export { default as Footer } from './Footer'
+export { default as Header } from './Header'
