@@ -20,6 +20,10 @@ const Wrapper = styled.header`
     color: #fff;
   }
 
+  .navbar-links-logo h2 {
+    font-family: var(--font-family)
+  }
+
   .navbar-links-container {
     display: flex;
     flex-direction: row;
@@ -95,7 +99,7 @@ const Wrapper = styled.header`
   }
 
   @media screen and (max-width: 1050px) {
-    .navbar-links_container {
+    .navbar-links-container {
       display: none;
     }
 
