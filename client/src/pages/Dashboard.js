@@ -1,8 +1,14 @@
 import React from 'react'
+import { Navbar, Footer } from '../components'
 
 const Dashboard = () => {
   return (
-    <h1>Dashboard</h1>
+    <div className='App'>
+      <div className='gradient__bg'>
+        <Navbar />
+      </div>
+      <Footer />
+    </div>
   )
 }
 
