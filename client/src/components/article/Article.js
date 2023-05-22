@@ -10,7 +10,7 @@ const Article = ({ imgUrl, date, text, intro }) => (
       <div>
         <p>{date}</p>
         <h3>{text}</h3>
-        <p>{intro}</p>
+        <p className='blog-intro'>{intro}</p>
       </div>
       <p>Read Full Article</p>
     </div>

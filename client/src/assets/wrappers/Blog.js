@@ -9,7 +9,6 @@ const Wrapper = styled.div`
   .gpt3__blog-heading {
     width: 100%;
     text-align: left;
-
     margin-bottom: 5rem;
   }
 
@@ -32,7 +31,6 @@ const Wrapper = styled.div`
 
   .gpt3__blog-container_groupB {
     flex: 1;
-
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;

@@ -1,6 +1,6 @@
 import React from 'react'
 import Wrapper from '../assets/wrappers/Header'
-import ai from '../assets/img/ai.png'
+import ai from '../assets/images/ai.png'
 
 const Header = () => {
   return (
