@@ -1,5 +1,3 @@
-export { default as Logo } from './Logo'
-
 export { default as Article } from './article/Article'
 export { default as Navbar } from './Navbar'
 export { default as Blog } from './Blog'
