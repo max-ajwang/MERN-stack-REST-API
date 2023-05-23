@@ -1,13 +1,13 @@
 import React from 'react'
 import Wrapper from '../assets/wrappers/Blog'
-import Article from './article/Article'
+import Article from './Article'
 
 const Blog = () => {
   return (
     <Wrapper>
-      <div className='gpt3__blog section__padding' id='blog'>
-        <div className='gpt3__blog-container'>
-          <div className='gpt3__blog-container_groupA'>
+      <div className='blog section__padding' id='blog'>
+        <div className='blog-container'>
+          <div className='blog-container-articles'>
             <Article
               imgUrl='https://www.incimages.com/uploaded_files/image/1024x576/engine_1725x810_21619.jpg'
               date='Sep 26, 2021'
@@ -16,8 +16,6 @@ const Blog = () => {
                   When planning a new business or analyzing an existing venture, 
                   always begin with the five parts - they will help you discover any major issues or gaps quickly.'
             />
-          </div>
-          <div className='gpt3__blog-container_groupB'>
             <Article
               imgUrl='https://appinventiv.com/wp-content/uploads/sites/1/2019/10/Elements-of-a-Product-Discovery-workshop-2.png'
               date='Sep 26, 2021'

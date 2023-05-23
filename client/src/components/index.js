@@ -1,4 +1,4 @@
-export { default as Article } from './article/Article'
+export { default as Article } from './Article'
 export { default as Navbar } from './Navbar'
 export { default as Blog } from './Blog'
 export { default as Footer } from './Footer'
