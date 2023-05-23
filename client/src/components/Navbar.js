@@ -20,7 +20,7 @@ const Navbar = () => {
               <a href='#blog'>Blog</a>
             </p>
             <p>
-              <a href='#wgpt3'>About</a>
+              <a href='#about'>About</a>
             </p>
           </div>
         </div>
