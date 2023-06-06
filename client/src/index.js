@@ -1,13 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+//import ES6 modules
+import React from "react"; 
+import ReactDom from "react-dom";
 import 'normalize.css'
+//CSS
 import './index.css';
 import App from './App';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
+//Render the component to 'root' in index.html by passing two arguments to the render property i.e 
+//component to be rendered and where it will be rendered
+ReactDom.render(<App/>, document.getElementById('root')); 
