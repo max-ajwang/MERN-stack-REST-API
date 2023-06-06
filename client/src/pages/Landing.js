@@ -1,15 +1,16 @@
 import React from 'react'
 import { Navbar, Blog, Footer } from '../components'
+import Wrapper from '../assets/wrappers/Landing'
 
 function Landing() {
   return (
-    <main>
+    <Wrapper>
       <nav>
         <Navbar />
       </nav>
       {/*<Blog />
       <Footer />*/}
-    </main>
+    </Wrapper>
   )
 }
 
