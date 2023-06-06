@@ -122,6 +122,7 @@ const Wrapper = styled.header`
       display: block;
     }
   }
+  
 `
 
 export default Wrapper
