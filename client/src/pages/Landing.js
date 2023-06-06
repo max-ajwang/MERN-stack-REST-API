@@ -1,16 +1,14 @@
-import React from 'react'
-import { Navbar, Blog, Footer } from '../components'
-import Wrapper from '../assets/wrappers/Landing'
+import { Navbar, Header, Blog, Footer } from '../components'
 
-function Landing() {
+const Landing = () => {
   return (
-    <Wrapper>
-      <nav>
-        <Navbar />
-      </nav>
+    <main>
+      <Navbar />
+      <Header />
+
       {/*<Blog />
       <Footer />*/}
-    </Wrapper>
+    </main>
   )
 }
 

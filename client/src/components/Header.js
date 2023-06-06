@@ -1,28 +1,23 @@
 import React from 'react'
 import Wrapper from '../assets/wrappers/Header'
-import ai from '../assets/images/ai.png'
+import main from '../assets/images/main.svg'
 
 const Header = () => {
   return (
     <Wrapper>
-      <div className='header section-padding' id='home'>
-        <div className='header-content'>
-          <h1>Resources for the modern entrepreneur.</h1>
-          <p>
-            We are building a set of resources for modern
-            entrepreneurs to plan and manage their businesses online. Enter your
-            email to get early access.
+      <div className='container page'>
+        {/* info */}
+        <div className="info">
+          <h1>Financial <span>Wellness</span> App</h1>
+          <p> Practical financial wellness tools and resources for the modern entrepreneur. 
+              From finance and economics to themes such as branding, marketing, communication, 
+              story telling, persuasion, negotiation, mental health and physical fitness.
+              ( podcast, Linkedin, Youtube, Facebook, Instagram, Twitter )
           </p>
-
-          <div className='header-content-input'>
-            <input type='email' placeholder='Your Email Address' />
-            <button type='button'>Get Started</button>
-          </div>
+          <button className='btn btn-hero'>Login/Register</button>
         </div>
-
-        <div className='header-image'>
-          <img src={ai} alt='AI' />
-        </div>
+        {/* main image */}
+        <img src={main} alt="financial wellness" className='img main-img' />
       </div>
     </Wrapper>
   )
