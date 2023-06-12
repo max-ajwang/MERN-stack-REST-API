@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.header`
+{*/ New Breakpoints ===> (480px, 768px, 1024px, and 1280px)*/}
+
   .navbar {
     display: flex;
     justify-content: space-between;

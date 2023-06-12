@@ -1,6 +1,10 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.section`
+
+{*/ New Breakpoints ===> (480px, 768px, 1024px, and 1280px)*/}
+
+
   display: grid;
   align-items: center;
   .logo {

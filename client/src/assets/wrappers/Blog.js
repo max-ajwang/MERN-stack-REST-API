@@ -1,6 +1,9 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
+{*/ New Breakpoints ===> (480px, 768px, 1024px, and 1280px)*/}
+
+
   .blog {
     display: flex;
     flex-direction: column;

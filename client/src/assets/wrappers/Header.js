@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
+{*/ Breakpoints ===> (480px, 768px, 1024px, and 1280px)*/}
+
   .page {
     min-height: cals(100vh - var(--nav-height));
     display: grid;

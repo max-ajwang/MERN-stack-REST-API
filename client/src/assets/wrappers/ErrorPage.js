@@ -1,6 +1,9 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.main`
+{*/ New Breakpoints ===> (480px, 768px, 1024px, and 1280px)*/}
+
+
   text-align: center;
   display: flex;
   align-items: center;
