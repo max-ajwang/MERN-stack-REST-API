@@ -1,25 +1,24 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.header`
-{*/ New Breakpoints ===> (480px, 768px, 1024px, and 1280px)*/}
-
   .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 6rem;
+    padding: 2rem 0rem;
   }
 
   .navbar-links {
     flex: 1;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    
   }
 
   .navbar-links-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
 
   .navbar-sign {
@@ -72,7 +71,7 @@ const Wrapper = styled.header`
     align-items: flex-end;
     flex-direction: column;
     text-align: end;
-    background: var(--color-footer);
+    background: var(--grey-100);
     padding: 2rem;
     position: absolute;
     right: 0;
@@ -85,13 +84,19 @@ const Wrapper = styled.header`
 
   .navbar-menu-container p {
     margin: 1rem 0;
+    :hover{
+      background-color: #2cb1bc;
+    }
   }
 
   .navbar-menu-container-links-sign {
     display: none;
   }
 
-  @media screen and (max-width: 1050px) {
+  @media screen and (max-width: 1280px) {
+  }
+
+  @media screen and (max-width: 1024px) {
     .navbar-links-container {
       display: none;
     }
@@ -101,15 +106,15 @@ const Wrapper = styled.header`
     }
   }
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 768px) {
     .navbar {
-      padding: 2rem 4rem;
+      padding: 2rem 0rem;
     }
   }
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 480px) {
     .navbar {
-      padding: 2rem;
+      padding: 2rem 0rem;
     }
 
     .navbar-sign {
@@ -124,7 +129,6 @@ const Wrapper = styled.header`
       display: block;
     }
   }
-  
 `
 
 export default Wrapper

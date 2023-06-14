@@ -9,9 +9,11 @@ const Navbar = () => {
 
   return (
     <Wrapper>
-      <div className='navbar'>
+      <div className='container navbar'>
         <div className='navbar-links'>
-          <Logo />
+          <a href='#home'>
+            <Logo />
+          </a>
           <div className='navbar-links-container'>
             <a href='#home'>
               <p>Home</p>
