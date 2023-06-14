@@ -8,8 +8,8 @@ const Header = () => {
       <div className='container page'>
         {/* info */}
         <div className="info">
-          <h1>Financial <span>Wellness</span> App</h1>
-          <p> Practical financial wellness tools and resources for the modern entrepreneur. 
+          <h1>Cyber Security <span>Awareness</span> App</h1>
+          <p> Practical Cyber Security tools and resources for the modern entrepreneur. 
               From finance and economics to themes such as branding, marketing, communication, 
               story telling, persuasion, negotiation, mental health and physical fitness.
               ( podcast, Linkedin, Youtube, Facebook, Instagram, Twitter )
