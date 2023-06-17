@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-  h1 {
+  h1, h3 {
     font-weight: 700;
     font-family: var(--bodyFont);
     span {
@@ -44,6 +44,10 @@ const Wrapper = styled.div`
       
     .main-img {
       display: none;
+    }
+
+    p {
+      font-size: 20px;
     }
   }
 `
