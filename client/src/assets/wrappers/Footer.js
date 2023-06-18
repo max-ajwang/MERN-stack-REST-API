@@ -1,10 +1,6 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.footer`
-
-{*/ New Breakpoints ===> (480px, 768px, 1024px, and 1280px)*/}
-
-
   .footer {
     display: flex;
     flex-direction: column;
@@ -20,23 +16,26 @@ const Wrapper = styled.footer`
   }
 
   .footer-copyright p {
-    font-size: 15px;
+    font-size: 20px;
     font-family: var(--font-family);
-    line-height: 15px;
-    color: #fff;
+    line-height: 25px;
+    color: black;
   }
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1280px) {
     
   }
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 1024px) {
     
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 768px) {
+    
+  }
+
+  @media screen and (max-width: 480px) {
    
   }
 `
-
 export default Wrapper

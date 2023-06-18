@@ -7,7 +7,7 @@ const Footer = () => {
     <Wrapper>
       <div className='footer section__padding'>
         <div className='footer-copyright'>
-          <p> Copyright © 2023 Max Ajwang. All rights reserved.</p>
+          <p> Copyright © Max Ajwang 2023. All rights reserved.</p>
         </div>
       </div>
     </Wrapper>

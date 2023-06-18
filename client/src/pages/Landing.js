@@ -5,9 +5,8 @@ const Landing = () => {
     <main>
       <Navbar />
       <Header />
-
       <Blog />
-      {/*<Footer />*/}
+      <Footer />
     </main>
   )
 }
