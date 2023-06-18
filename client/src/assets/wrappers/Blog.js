@@ -64,7 +64,7 @@ const Wrapper = styled.div`
 
   @media screen and (max-width: 480px) {
     .blog-heading h1 {
-      font-size: 34px;
+      font-size: 35px;
       line-height: 42px;
     }
   }

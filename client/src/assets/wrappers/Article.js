@@ -30,7 +30,7 @@ const Wrapper = styled.div`
 
     .blog-container-article-content p {
         font-family: var(--font-family);
-        font-size: 20px;
+        font-size: 22px;
         line-height: 25px;
         color: black;
     }
@@ -65,7 +65,7 @@ const Wrapper = styled.div`
 
     @media screen and (max-width: 480px) {
         .blog-container-article-content h3 {
-            font-size: 25px;
+            font-size: 30px;
             line-height: 25p;
         }
     }
