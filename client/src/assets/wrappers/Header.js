@@ -15,6 +15,7 @@ const Wrapper = styled.div`
     align-items: center;
     grid-template-columns: 1fr 1fr;
     column-gap: 3rem;
+    margin-top: -30px;
   }
 
   @media screen and (max-width: 1280px) {

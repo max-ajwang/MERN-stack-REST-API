@@ -5,7 +5,8 @@ import Article from './Article'
 const Blog = () => {
   return (
     <Wrapper>
-      <div className='blog section__padding' id='blog'>
+      <div className='container blog section__padding'>
+        <h3>Latest Posts</h3>
         <div className='blog-container'>
           <div className='blog-container-articles'>
             <Article

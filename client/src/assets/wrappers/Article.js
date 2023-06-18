@@ -1,10 +1,6 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-
-{*/ New Breakpoints ===> (480px, 768px, 1024px, and 1280px)*/}
-
-
     .blog-container-article {
         width: 100%;
         height: 100%;
@@ -34,17 +30,17 @@ const Wrapper = styled.div`
 
     .blog-container-article-content p {
         font-family: var(--font-family);
-        font-size: 16px;
+        font-size: 20px;
         line-height: 25px;
-        color: #fff;
+        color: black;
     }
 
     .blog-container-article-content h3 {
         font-family: var(--font-family);
-        font-size: 25.11px;
+        font-size: 30px;
         font-weight: 800;
         line-height: 30.30px;
-        color: #fff;
+        color: var(--primary-500);
         margin-bottom: 1rem;
         cursor: pointer;
     }
@@ -54,10 +50,22 @@ const Wrapper = styled.div`
         margin-bottom: 1rem;
     }
 
+    
+    @media screen and (max-width: 1280px) {
+        
+    } 
 
-    @media screen and (max-width: 550px) {
+    @media screen and (max-width: 1024px) {
+        
+    }    
+    
+    @media screen and (max-width: 768px) {
+        
+    }
+
+    @media screen and (max-width: 480px) {
         .blog-container-article-content h3 {
-            font-size: 18px;
+            font-size: 25px;
             line-height: 25p;
         }
     }

@@ -8,11 +8,9 @@ const Article = ({ imgUrl, date, text, intro }) => (
         <img src={imgUrl} alt="blog_image" />
       </div>
       <div className="blog-container-article-content">
-        <div>
-          <p>{date}</p>
-          <h3>{text}</h3>
-          <p className='blog-intro'>{intro}</p>
-        </div>
+        <p>{date}</p>
+        <h3>{text}</h3>
+        <p className='blog-intro'>{intro}</p>
         <p>Read Full Article</p>
       </div>
     </div>

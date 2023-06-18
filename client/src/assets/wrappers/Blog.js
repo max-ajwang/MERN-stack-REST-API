@@ -1,14 +1,17 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-{*/ New Breakpoints ===> (480px, 768px, 1024px, and 1280px)*/}
-
+  h3 {
+    font-weight: 700;
+    font-family: var(--bodyFont);
+  }
 
   .blog {
     display: flex;
     flex-direction: column;
+    color: black;
   }
-
+  
   .blog-container {
     display: flex;
     flex-direction: row;
@@ -33,8 +36,12 @@ const Wrapper = styled.div`
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
   }
+  
+  @media screen and (max-width: 1280px) {
+    
+  }
 
-  @media screen and (max-width: 990px) {
+  @media screen and (max-width: 1024px) {
     .blog-container {
       flex-direction: column-reverse;
     }
@@ -44,7 +51,7 @@ const Wrapper = styled.div`
     }
   }
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 768px) {
     .blog-container-articles {
       grid-template-columns: repeat(1, 1fr);
     }
@@ -55,7 +62,7 @@ const Wrapper = styled.div`
     }
   }
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 480px) {
     .blog-heading h1 {
       font-size: 34px;
       line-height: 42px;
