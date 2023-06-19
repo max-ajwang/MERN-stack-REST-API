@@ -16,7 +16,7 @@ const Header = () => {
           {/*<button className='btn btn-hero'>Login/Register</button>*/}
           <h3>Quick Links</h3>
           <ul>
-            <li><a href='#MyServices'>Service Offered</a></li>
+            <li><a href='#MyServices'>Services Offered</a></li>
             <li><a href='#Twitter'>Twitter (best place to connect)</a></li>
             <li><a href='#YT'>My YouTube Channel</a></li>
             <li><a href='#MyPortfolio'>My Portfolio</a></li>

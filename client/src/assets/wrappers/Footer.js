@@ -5,8 +5,7 @@ const Wrapper = styled.footer`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background: var(--color-footer);
+    background: var(--grey-100);
   }
 
   .footer-copyright {
