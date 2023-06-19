@@ -18,17 +18,17 @@ const Navbar = () => {
             <a href='#home'>
               <p>Home</p>
             </a>
+            <a href='#blog'>
+              <p>Blog</p>
+            </a>
             <a href='#about'>
               <p>About</p>
             </a>
             <a href='#about'>
-              <p>Projects</p>
-            </a>
-            <a href='#blog'>
-              <p>Blog</p>
+              <p>Portfolio</p>
             </a>
             <a href='#contact'>
-              <p>Contact</p>
+              <p>Hire Me</p>
             </a>
           </div>
         </div>
@@ -60,18 +60,18 @@ const Navbar = () => {
                 <a href='#home'>
                   <p>Home</p>
                 </a>
+                <a href='#blog'>
+                  <p>Blog</p>
+                </a>
                 <a href='#about'>
                   <p>About</p>
                 </a>
                 <a href='#about'>
-                  <p>Projects</p>
+                  <p>Portfolio</p>
                 </a>
-                <a href='#blog'>
-                  <p>Blog</p>
-                </a> 
                 <a href='#contact'>
-                  <p>Contact</p>
-                </a> 
+                  <p>Hire Me</p>
+                </a>
               </div>
               <div className='navbar-menu-container-links-sign'>
                 <p>Sign in</p>

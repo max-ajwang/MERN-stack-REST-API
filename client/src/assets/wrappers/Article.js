@@ -24,15 +24,17 @@ const Wrapper = styled.div`
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 1rem 1.5rem;
         height: 100%;
+        background: var(--grey-100);
     }
 
     .blog-container-article-content p {
         font-family: var(--font-family);
-        font-size: 22px;
+        font-size: 15px;
         line-height: 25px;
         color: black;
+        margin-bottom: auto;
+        margin-top: 10px;
     }
 
     .blog-container-article-content h3 {
@@ -66,7 +68,13 @@ const Wrapper = styled.div`
     @media screen and (max-width: 480px) {
         .blog-container-article-content h3 {
             font-size: 30px;
-            line-height: 25p;
+            line-height: 30px;
+        }
+
+        .blog-container-article-content p {
+            font-family: var(--font-family);
+            font-size: 20px;
+            line-height: 35px;
         }
     }
 `

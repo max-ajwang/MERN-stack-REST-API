@@ -6,6 +6,7 @@ const Wrapper = styled.footer`
     flex-direction: column;
     justify-content: center;
     background: var(--grey-100);
+    margin-top: 30px;
   }
 
   .footer-copyright {
@@ -15,7 +16,7 @@ const Wrapper = styled.footer`
   }
 
   .footer-copyright p {
-    font-size: 20px;
+    font-size: 15px;
     font-family: var(--font-family);
     line-height: 25px;
     color: black;

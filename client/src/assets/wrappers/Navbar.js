@@ -5,7 +5,7 @@ const Wrapper = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
   }
 
   .navbar-links {
@@ -114,7 +114,7 @@ const Wrapper = styled.header`
 
   @media screen and (max-width: 480px) {
     .navbar {
-      padding: 2rem 0rem;
+      padding: 1rem 0rem;
     }
 
     .navbar-sign {
