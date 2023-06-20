@@ -5,14 +5,12 @@ const Wrapper = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0rem;
   }
 
   .navbar-links {
     flex: 1;
     display: flex;
     justify-content: flex-start;
-    
   }
 
   .navbar-links-container {
