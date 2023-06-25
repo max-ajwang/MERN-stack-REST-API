@@ -1,33 +1,29 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-  {/*h3 {
-    font-weight: 700;
-    font-family: var(--bodyFont);
-  }
-
   .blog {
     display: flex;
     flex-direction: column;
     color: black;
   }
-  
-  .blog-container {
-    display: flex;
-    flex-direction: row;
-  }
 
   .blog-heading {
     width: 100%;
     text-align: left;
-    margin-bottom: 5rem;
+    margin-bottom: 0rem;
   }
 
-  .blog-heading h1 {
-    font-size: 62px;
-    line-height: 75px;
-    font-family: var(--font-family);
-    font-weight: 800;
+  .blog-heading h3 {
+    font-weight: 700;
+    font-family: var(--bodyFont);
+    font-size: 1.25rem;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+  }
+  /*
+  .blog-container {
+    display: flex;
+    flex-direction: row;
   }
 
   .blog-container-articles {
@@ -36,7 +32,7 @@ const Wrapper = styled.div`
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
   }
-  
+  */
   @media screen and (max-width: 1280px) {
     
   }
@@ -79,7 +75,7 @@ const Wrapper = styled.div`
       line-height: 1.5715;
       letter-spacing: -.01em;
     }
-  }*/}
+  }
 `
 
 export default Wrapper

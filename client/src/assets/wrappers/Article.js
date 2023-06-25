@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-    {/*}.blog-container-article {
+    .blog-container-article {
         width: 100%;
         height: 100%;
         display: flex;
@@ -75,7 +75,7 @@ const Wrapper = styled.div`
             line-height: 1.5715;
             letter-spacing: -.01em;
         }
-    }*/}
+    }
 `
 
 export default Wrapper
