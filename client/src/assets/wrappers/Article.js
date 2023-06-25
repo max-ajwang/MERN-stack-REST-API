@@ -28,20 +28,26 @@ const Wrapper = styled.div`
     }
 
     .blog-container-article-content p {
-        font-family: var(--font-family);
+        font-family: var(--bodyFont);
         font-size: 15px;
-        line-height: 25px;
+        line-height: 1.5;
         color: black;
-        margin-bottom: auto;
     }
 
     .blog-container-article-content h3 {
-        font-family: var(--font-family);
-        font-size: 30px;
+        font-family: var(--bodyFont);
+        font-size: 1.225rem;
         font-weight: 800;
-        line-height: 30.30px;
-        color: var(--primary-500);
+        line-height: 1.5;
+        color: var(--black);
         cursor: pointer;
+        margin-top: 1.5rem;
+        margin-bottom: 0px;
+    }
+
+    .blog-intro {
+        margin-top: -10px;
+        margin-bottom: 1px;
     }
 
     .blog-container-article-content p:last-child {
@@ -70,7 +76,7 @@ const Wrapper = styled.div`
         }
 
         .blog-container-article-content p {
-            font-family: var(--font-family);
+            font-family: var(--bodyFont);
             font-size: .875rem;
             line-height: 1.5715;
             letter-spacing: -.01em;

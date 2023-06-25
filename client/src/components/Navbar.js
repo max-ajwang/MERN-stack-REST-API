@@ -10,7 +10,6 @@ const Navbar = () => {
       <div className='container navbar'>
         <div className='navbar-links'>
           <div className='navbar-links-container'>
-           
             <a href='#home'>
               <p>Home</p>
             </a>

@@ -42,26 +42,13 @@ const Wrapper = styled.div`
       display: block;
       align-items: center;
     }
-
-    .info h1 {
-      font-size: 2.25rem;
-      line-height: 1.277;
-    }
-    
-    .info h3 {
-      font-size: 1.25rem;
-      line-height: 1.5;
-      letter-spacing: -.01em;
-    }
-
-    .info p {
-      font-size: 1.125rem;
-      line-height: 1.5;
-      letter-spacing: -.01em;
-    }
-
+      
     .main-img {
       display: none;
+    }
+
+    p {
+      font-size: 20px;
     }
   }
 `
