@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-    .blog-container-article {
+    {/*}.blog-container-article {
         width: 100%;
         height: 100%;
         display: flex;
@@ -25,7 +25,6 @@ const Wrapper = styled.div`
         flex-direction: column;
         justify-content: space-between;
         height: 100%;
-        background: var(--grey-100);
     }
 
     .blog-container-article-content p {
@@ -34,7 +33,6 @@ const Wrapper = styled.div`
         line-height: 25px;
         color: black;
         margin-bottom: auto;
-        margin-top: 10px;
     }
 
     .blog-container-article-content h3 {
@@ -43,7 +41,6 @@ const Wrapper = styled.div`
         font-weight: 800;
         line-height: 30.30px;
         color: var(--primary-500);
-        margin-bottom: 1rem;
         cursor: pointer;
     }
 
@@ -67,16 +64,18 @@ const Wrapper = styled.div`
 
     @media screen and (max-width: 480px) {
         .blog-container-article-content h3 {
-            font-size: 30px;
-            line-height: 30px;
+            font-size: 1.325rem;
+            line-height: 1.5;
+            letter-spacing: -.01em;
         }
 
         .blog-container-article-content p {
             font-family: var(--font-family);
-            font-size: 20px;
-            line-height: 35px;
+            font-size: .875rem;
+            line-height: 1.5715;
+            letter-spacing: -.01em;
         }
-    }
+    }*/}
 `
 
 export default Wrapper

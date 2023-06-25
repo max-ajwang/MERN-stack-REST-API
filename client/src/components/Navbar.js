@@ -11,10 +11,8 @@ const Navbar = () => {
     <Wrapper>
       <div className='container navbar'>
         <div className='navbar-links'>
-          <a href='#home'>
-            <Logo />
-          </a>
           <div className='navbar-links-container'>
+           
             <a href='#home'>
               <p>Home</p>
             </a>

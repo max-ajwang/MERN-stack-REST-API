@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-  h3 {
+  {/*h3 {
     font-weight: 700;
     font-family: var(--bodyFont);
   }
@@ -63,11 +63,23 @@ const Wrapper = styled.div`
   }
 
   @media screen and (max-width: 480px) {
+    .blog h3 {
+      font-size: 1.25rem;
+      line-height: 1.5;
+      letter-spacing: -.01em;
+    }
+
     .blog-heading h1 {
       font-size: 35px;
       line-height: 42px;
     }
-  }
+
+    .blog p {
+      font-size: .875rem;
+      line-height: 1.5715;
+      letter-spacing: -.01em;
+    }
+  }*/}
 `
 
 export default Wrapper

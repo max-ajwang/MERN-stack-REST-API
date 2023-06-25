@@ -4,7 +4,9 @@ const Wrapper = styled.header`
   .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .navbar-links {
