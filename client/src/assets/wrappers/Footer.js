@@ -6,7 +6,8 @@ const Wrapper = styled.footer`
     flex-direction: column;
     justify-content: center;
     background: var(--grey-100);
-    margin-top: 30px;
+    border: 1px solid;
+    margin-top: 5px;
   }
 
   .footer-copyright {

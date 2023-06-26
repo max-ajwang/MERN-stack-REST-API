@@ -10,6 +10,8 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     color: black;
+    margin-top: 1.5px;
+    border: 1px solid;
   }
   
   .blog-container {

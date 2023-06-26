@@ -1,9 +1,7 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-  h1, h3 {
-    font-weight: 700;
-    font-family: var(--bodyFont);
+  h3 {
     span {
       color: var(--primary-500);
     }
@@ -16,6 +14,7 @@ const Wrapper = styled.div`
     grid-template-columns: 1fr 1fr;
     column-gap: 3rem;
     margin-top: -5px;
+    border: 1px solid;
   }
 
   @media screen and (max-width: 1280px) {

@@ -7,6 +7,7 @@ const Wrapper = styled.header`
     align-items: left;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+    border: 1px solid;
   }
 
   .navbar-links {
@@ -30,29 +31,16 @@ const Wrapper = styled.header`
   .navbar-links-container p,
   .navbar-sign p,
   .navbar-menu-container p {
-    color: var(--textColor);
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
     text-transform: capitalize;
-    margin: 0 1rem;
+    margin-left: 0rem;
+    margin-right: 1rem;
     cursor: pointer;
+    border: 1px solid;
   }
 
   .navbar-sign button,
   .navbar-menu-container button {
-    padding: 0.5rem 1rem;
-    color: #fff;
-    background: #2cb1bc;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    border-radius: 5px;
+    
   }
 
   .navbar-menu {
