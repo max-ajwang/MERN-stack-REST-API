@@ -5,9 +5,11 @@ const Wrapper = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: left;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    border: 1px solid;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 0 9.5rem;
+    background-color: var(--white);
   }
 
   .navbar-links {
@@ -35,12 +37,12 @@ const Wrapper = styled.header`
     margin-left: 0rem;
     margin-right: 1rem;
     cursor: pointer;
-    border: 1px solid;
   }
 
   .navbar-sign button,
   .navbar-menu-container button {
-    
+    font-size: 15px;
+    border-radius: var(--borderRadius);
   }
 
   .navbar-menu {

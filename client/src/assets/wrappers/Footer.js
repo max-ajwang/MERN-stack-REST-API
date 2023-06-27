@@ -6,7 +6,6 @@ const Wrapper = styled.footer`
     flex-direction: column;
     justify-content: center;
     background: var(--grey-100);
-    border: 1px solid;
     margin-top: 5px;
   }
 

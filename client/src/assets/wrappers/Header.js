@@ -13,8 +13,7 @@ const Wrapper = styled.div`
     align-items: center;
     grid-template-columns: 1fr 1fr;
     column-gap: 3rem;
-    margin-top: -5px;
-    border: 1px solid;
+    margin-top: 3.2rem;
   }
 
   @media screen and (max-width: 1280px) {

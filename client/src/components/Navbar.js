@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <Wrapper>
-      <div className='container navbar'>
+      <div className='navbar'>
         <div className='navbar-links'>
           <div className='navbar-links-container'>
             <a href='#home'>
