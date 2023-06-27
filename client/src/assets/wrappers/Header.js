@@ -1,19 +1,20 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-  h3 {
-    span {
-      color: var(--primary-500);
-    }
-  }
-
   .page {
     min-height: cals(100vh - var(--nav-height));
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
     column-gap: 3rem;
-    margin-top: 3.2rem;
+    margin-top: 4rem;
+    padding-top: 2.5rem;
+  }
+
+  h3 {
+    span {
+      color: var(--primary-500);
+    }
   }
 
   @media screen and (max-width: 1280px) {

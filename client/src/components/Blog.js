@@ -7,7 +7,7 @@ const Blog = () => {
     <Wrapper>
       <div className='container blog section__padding'>
         <div className='blog-heading'>
-          <h3>Latest Posts</h3>
+          <h5>Latest Posts</h5>
         </div>
         <div className='blog-container'>
           <div className='blog-container-articles'>

@@ -5,7 +5,7 @@ import Wrapper from '../assets/wrappers/Footer'
 const Footer = () => {
   return (
     <Wrapper>
-      <div className='footer section__padding'>
+      <div className='footer'>
         <div className='footer-copyright'>
           <p> Copyright © Max Ajwang 2023. All rights reserved.</p>
         </div>

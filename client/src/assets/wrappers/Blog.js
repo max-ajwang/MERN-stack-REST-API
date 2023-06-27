@@ -21,7 +21,7 @@ const Wrapper = styled.div`
   .blog-heading {
     width: 100%;
     text-align: left;
-    margin-bottom: 1.5;
+    margin-bottom: 1.5rem;
   }
 
   .blog-heading h3 {

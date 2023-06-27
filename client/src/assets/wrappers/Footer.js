@@ -5,12 +5,13 @@ const Wrapper = styled.footer`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: var(--grey-100);
-    margin-top: 5px;
+    background: var(--white);
+    margin-top: 1.5rem;
   }
 
   .footer-copyright {
-    margin-top: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     text-align: center;
     width: 100%;
   }
