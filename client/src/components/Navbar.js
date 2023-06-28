@@ -10,25 +10,25 @@ const Navbar = () => {
       <div className='navbar'>
         <div className='navbar-links'>
           <div className='navbar-links-container'>
-            <a href='#home'>
+            <a href='./home'>
               <p>Home</p>
             </a>
-            <a href='#blog'>
+            <a href='./blog'>
               <p>Blog</p>
             </a>
-            <a href='#about'>
+            <a href='./about'>
               <p>About</p>
             </a>
-            <a href='#about'>
+            <a href='./portfolio'>
               <p>Portfolio</p>
             </a>
-            <a href='#contact'>
+            <a href='./hireme'>
               <p>Hire Me</p>
             </a>
           </div>
         </div>
         <div className='navbar-sign'>
-          <a href='./signup'>
+          <a href='./register'>
             <p>Sign in</p>
           </a>
           <a href='./register'>
@@ -52,25 +52,29 @@ const Navbar = () => {
           {toggleMenu && (
             <div className='navbar-menu-container scale-up-center'>
               <div className='navbar-menu-container-links'>
-                <a href='#home'>
+                <a href='./home'>
                   <p>Home</p>
                 </a>
-                <a href='#blog'>
+                <a href='./blog'>
                   <p>Blog</p>
                 </a>
-                <a href='#about'>
+                <a href='./about'>
                   <p>About</p>
                 </a>
-                <a href='#about'>
+                <a href='./portfolio'>
                   <p>Portfolio</p>
                 </a>
-                <a href='#contact'>
+                <a href='./hireme'>
                   <p>Hire Me</p>
                 </a>
               </div>
               <div className='navbar-menu-container-links-sign'>
-                <p>Sign in</p>
-                <button className='btn btn-hero' type='button'>Sign up</button>
+                <a href='./register'>
+                  <p>Sign in</p>
+                </a>
+                <a href='./register'>
+                  <button className='btn btn-hero' type='button'>Sign up</button>
+                </a>
               </div>
             </div>
           )}
