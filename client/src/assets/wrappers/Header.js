@@ -13,8 +13,12 @@ const Wrapper = styled.div`
 
   h3 {
     span {
-      color: var(--primary-500);
+      color: var(--dark-yellow);
     }
+  }
+
+  a {
+    color: var(--dark-yellow);
   }
 
   @media screen and (max-width: 1280px) {

@@ -22,6 +22,7 @@ const Wrapper = styled.div`
     width: 100%;
     text-align: left;
     margin-bottom: 1.5rem;
+    color: var(--white);
   }
 
   .blog-heading h3 {

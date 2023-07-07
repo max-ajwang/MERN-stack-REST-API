@@ -6,7 +6,7 @@ const Wrapper = styled.div`
         height: 100%;
         display: flex;
         flex-direction: column;
-        background: var(--color-footer);
+        background: var(--dark-yellow);
         border-radius: var(--borderRadius);
         box-shadow: var(--shadow-4);
         padding: 20px;

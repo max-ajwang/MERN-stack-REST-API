@@ -9,7 +9,7 @@ const Wrapper = styled.header`
     width: 100%;
     top: 0;
     padding: 0 9.5rem;
-    background-color: var(--white);
+    background-color: var(--navy-blue);
   }
 
   .navbar-links {
