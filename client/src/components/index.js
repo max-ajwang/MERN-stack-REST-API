@@ -1,8 +1,10 @@
-export { default as Navbar } from './Navbar'
-export { default as Logo } from './Logo'
+import Article from './Article'
+import Blog from './Blog'
+import Footer from './Footer'
+import FormRow from './FormRow'
+import Header from './Header'
+import Logo from './Logo'
+import Navbar from './Navbar'
 
-export { default as Article } from './Article'
-export { default as Blog } from './Blog'
-export { default as Footer } from './Footer'
-export { default as Header } from './Header'
+export {Navbar, Logo, Article, Blog, Footer, Header, FormRow}
 

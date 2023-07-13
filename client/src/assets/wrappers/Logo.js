@@ -7,7 +7,7 @@ const Wrapper = styled.div`
 
     .logo-container h3 {
         font-family: var(--font-family);
-        color: #2cb1bc;
+        color: var(--dark-yellow);
         font-weight: 700;
     }
 
