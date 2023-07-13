@@ -9,10 +9,14 @@ const Wrapper = styled.section`
 
   .form {
     max-width: 400px;
-    border-top: 5px solid var(--primary-500);
+    border-top: 5px solid var(--dark-yellow);
     display: grid;
     align-items: center;
     color: black;
+  }
+
+  .form-input {
+    background-color: white;
   }
 
   h3 {
