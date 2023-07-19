@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import Wrapper from '../assets/wrappers/Navbar'
+import Logo from './Logo'
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
@@ -10,6 +11,9 @@ const Navbar = () => {
       <div className='navbar'>
         <div className='navbar-links'>
           <div className='navbar-links-container'>
+            <a href='./home'>
+              <Logo />
+            </a>
             <a href='./home'>
               <p>Home</p>
             </a>

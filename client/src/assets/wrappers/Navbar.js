@@ -8,7 +8,7 @@ const Wrapper = styled.header`
     position: fixed;
     width: 100%;
     top: 0;
-    padding: 0 9.5rem;
+    padding: 0 3.5rem;
     background-color: var(--navy-blue);
   }
 
@@ -87,6 +87,10 @@ const Wrapper = styled.header`
   }
 
   @media screen and (max-width: 1024px) {
+    .navbar {
+      padding: 0 20.5rem;
+    }
+
     .navbar-links-container {
       display: none;
     }

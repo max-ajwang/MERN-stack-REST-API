@@ -3,6 +3,7 @@ import styled from 'styled-components'
 const Wrapper = styled.div`
     .logo-container {
         padding: 0.5rem -1rem; 
+        margin-right: 1.5rem;
     }
 
     .logo-container h3 {
