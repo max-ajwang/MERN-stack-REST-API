@@ -17,17 +17,8 @@ const Navbar = () => {
             <a href='./home'>
               <p>Home</p>
             </a>
-            <a href='./blog'>
-              <p>Blog</p>
-            </a>
             <a href='./about'>
               <p>About</p>
-            </a>
-            <a href='./portfolio'>
-              <p>Portfolio</p>
-            </a>
-            <a href='./hireme'>
-              <p>Hire Me</p>
             </a>
           </div>
         </div>
@@ -59,17 +50,8 @@ const Navbar = () => {
                 <a href='./home'>
                   <p>Home</p>
                 </a>
-                <a href='./blog'>
-                  <p>Blog</p>
-                </a>
                 <a href='./about'>
                   <p>About</p>
-                </a>
-                <a href='./portfolio'>
-                  <p>Portfolio</p>
-                </a>
-                <a href='./hireme'>
-                  <p>Hire Me</p>
                 </a>
               </div>
               <div className='navbar-menu-container-links-sign'>
