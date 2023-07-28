@@ -8,7 +8,7 @@ const Wrapper = styled.header`
     position: fixed;
     width: 100%;
     top: 0;
-    padding: 0 3.5rem;
+    padding: 1.15em 3.5rem;
     background-color: var(--navy-blue);
   }
 
@@ -37,6 +37,7 @@ const Wrapper = styled.header`
     margin-left: 0rem;
     margin-right: 1rem;
     cursor: pointer;
+    color: black;
   }
 
   .navbar-sign button,
@@ -47,7 +48,8 @@ const Wrapper = styled.header`
 
   .navbar-menu {
     margin-left: 1rem;
-    display: none;
+    margin-top: .5em;
+    display: flex;
     position: relative;
   }
 
@@ -61,7 +63,7 @@ const Wrapper = styled.header`
     align-items: flex-end;
     flex-direction: column;
     text-align: end;
-    background: var(--grey-100);
+    background: var(--dark-yellow);
     padding: 2rem;
     position: absolute;
     right: 0;
@@ -75,7 +77,7 @@ const Wrapper = styled.header`
   .navbar-menu-container p {
     margin: 1rem 0;
     :hover{
-      background-color: #2cb1bc;
+      background-color: var(--white);
     }
   }
 
@@ -83,16 +85,41 @@ const Wrapper = styled.header`
     display: none;
   }
 
+  .navbar-menu-container-links-sign {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar-menu-container-links-sign h4 {
+      color: var(--navy-blue);
+    }
+
+    .navbar-menu-container-links-sign h6 {
+      color: var(--navy-blue);
+      font-weight: 600;
+      font-size: smaller;
+      margin-top: 0.1rem;
+    }
+
+    .navbar-menu-container-links-sign button {
+      margin-top: -2rem;
+      background-color: var(--navy-blue);
+    }
+
   @media screen and (max-width: 1280px) {
+
   }
 
   @media screen and (max-width: 1024px) {
     .navbar {
-      padding: 0 20.5rem;
+      padding: 1.15em 3.5rem;
     }
 
     .navbar-links-container {
-      display: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-left: -1rem;
     }
 
     .navbar-menu {
@@ -102,13 +129,20 @@ const Wrapper = styled.header`
 
   @media screen and (max-width: 768px) {
     .navbar {
-      padding: 2rem 0rem;
+      padding: 1.15em 3.5rem;
     }
   }
 
   @media screen and (max-width: 480px) {
     .navbar {
-      padding: 1rem 0rem;
+      padding: 1.15em 1.2rem;
+    }
+
+    .navbar-links-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-left: -0.25rem;
     }
 
     .navbar-sign {
@@ -120,7 +154,22 @@ const Wrapper = styled.header`
     }
 
     .navbar-menu-container-links-sign {
-      display: block;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar-menu-container-links-sign h4 {
+      color: var(--navy-blue);
+    }
+
+    .navbar-menu-container-links-sign p {
+      color: var(--navy-blue);
+      font-weight: 600;
+    }
+
+    .navbar-menu-container-links-sign button {
+      margin-top: 0rem;
+      background-color: var(--navy-blue);
     }
   }
 `

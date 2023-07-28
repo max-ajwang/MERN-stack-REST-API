@@ -157,9 +157,8 @@ ul {
     font-family: var(--bodyFont);
     font-weight: 400;
     font-size: 1.25rem;
-
     cursor: pointer;
-    color: var(--black);
+    color: var(--white);
     background: var(--dark-yellow);
     border: transparent;
     border-radius: var(--borderRadius);

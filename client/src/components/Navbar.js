@@ -11,35 +11,26 @@ const Navbar = () => {
       <div className='navbar'>
         <div className='navbar-links'>
           <div className='navbar-links-container'>
-            <a href='./home'>
+            <a href='./'>
               <Logo />
-            </a>
-            <a href='./home'>
-              <p>Home</p>
-            </a>
-            <a href='./about'>
-              <p>About</p>
             </a>
           </div>
         </div>
         <div className='navbar-sign'>
           <a href='./register'>
-            <p>Sign in</p>
-          </a>
-          <a href='./register'>
-            <button className='btn btn-hero' type='button'>Sign up</button>
+            <button className='btn btn-hero' type='button'>Subscribe</button>
           </a>
         </div>
         <div className='navbar-menu'>
           {toggleMenu ? (
             <RiCloseLine
-              color='#2cb1bc'
+              color='#FFC300'
               size={27}
               onClick={() => setToggleMenu(false)}
             />
           ) : (
             <RiMenu3Line
-              color='#2cb1bc'
+              color='#FFC300'
               size={27}
               onClick={() => setToggleMenu(true)}
             />
@@ -47,19 +38,42 @@ const Navbar = () => {
           {toggleMenu && (
             <div className='navbar-menu-container scale-up-center'>
               <div className='navbar-menu-container-links'>
+                <div className='navbar-menu-container-links-sign'>
+                  <h4>Get insights delivered to your inbox</h4>
+                  <h6>Get our latest insights plus informative content emailed to you</h6>
+                  <a href='./register'>
+                    <button className='btn btn-hero' type='button'>Subscribe Now</button>
+                  </a>
+                </div>
                 <a href='./home'>
                   <p>Home</p>
                 </a>
                 <a href='./about'>
                   <p>About</p>
                 </a>
-              </div>
-              <div className='navbar-menu-container-links-sign'>
-                <a href='./register'>
-                  <p>Sign in</p>
+                <a href='#'>
+                  <p>Blog</p>
                 </a>
-                <a href='./register'>
-                  <button className='btn btn-hero' type='button'>Sign up</button>
+                <a href='#'>
+                  <p>Technology</p>
+                </a>
+                <a href='#'>
+                  <p>Finance</p>
+                </a>
+                <a href='#'>
+                  <p>Real Estate</p>
+                </a>
+                <a href='#'>
+                  <p>Agriculture</p>
+                </a>
+                <a href='#'>
+                  <p>Fashion and Apparel</p>
+                </a>
+                <a href='#'>
+                  <p>Entertainment</p>
+                </a>
+                <a href='#'>
+                  <p>Finance</p>
                 </a>
               </div>
             </div>

@@ -13,7 +13,6 @@ function App () {
         <Route path='/register' element={<Register />} />
         <Route path='/home' element={<Dashboard />} />
         <Route path='/about' element={<About />}/>
-        <Route path='/hireme' element={<Hireme />}/>
         <Route path='*' element={<Error />} />
       </Routes>
     </BrowserRouter>
