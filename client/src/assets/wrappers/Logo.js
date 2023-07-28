@@ -12,6 +12,12 @@ const Wrapper = styled.div`
         font-weight: 700;
     }
 
+    span {
+        color: var(--white);
+        font-style: italic;
+        font-size: 18px;
+    }
+
     @media screen and (max-width: 1280px) {
     
     }
