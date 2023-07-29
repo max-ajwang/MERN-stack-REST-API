@@ -11,9 +11,9 @@ const Navbar = () => {
       <div className='navbar'>
         <div className='navbar-links'>
           <div className='navbar-links-container'>
-            <a href='./'>
+            {/* <a href='./'>
               <Logo />
-            </a>
+            </a> */}
           </div>
         </div>
         <div className='navbar-sign'>

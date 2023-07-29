@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <Wrapper>
       <div className='logo-container'>
-        <h3>Labeka <span>The Lab</span></h3>
+        <h3>Ajwang' <span>Max</span></h3>
       </div>
     </Wrapper>
   )
