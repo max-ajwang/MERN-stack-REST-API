@@ -158,7 +158,7 @@ ul {
     font-weight: 400;
     font-size: 1.25rem;
     cursor: pointer;
-    color: var(--white);
+    color: var(--navy-blue);
     background: var(--dark-yellow);
     border: transparent;
     border-radius: var(--borderRadius);
