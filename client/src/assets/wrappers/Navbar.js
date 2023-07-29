@@ -37,7 +37,8 @@ const Wrapper = styled.header`
     margin-left: 0rem;
     margin-right: 1rem;
     cursor: pointer;
-    color: black;
+    color: var(--navy-blue);
+    font-weight: 550;
   }
 
   .navbar-sign button,
@@ -77,7 +78,8 @@ const Wrapper = styled.header`
   .navbar-menu-container p {
     margin: 1rem 0;
     :hover{
-      background-color: var(--white);
+      color: var(--white);
+      background-color: var(--navy-blue);
     }
   }
 
@@ -99,6 +101,7 @@ const Wrapper = styled.header`
       font-weight: 600;
       font-size: smaller;
       margin-top: 0.1rem;
+      margin-bottom: 0.8rem;
     }
 
     .navbar-menu-container-links-sign button {

@@ -42,17 +42,11 @@ const Navbar = () => {
                   <h4>Get insights delivered to your inbox</h4>
                   <h6>Get our latest insights plus informative content emailed to you</h6>
                   <a href='./register'>
-                    <button className='btn btn-hero' type='button'>Subscribe Now</button>
+                    <button className='btn btn-hero' type='button'>Subscribe</button>
                   </a>
                 </div>
-                <a href='./home'>
-                  <p>Home</p>
-                </a>
                 <a href='./about'>
                   <p>About</p>
-                </a>
-                <a href='#'>
-                  <p>Blog</p>
                 </a>
                 <a href='#'>
                   <p>Technology</p>
