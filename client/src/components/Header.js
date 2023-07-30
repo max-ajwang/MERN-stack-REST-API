@@ -10,7 +10,7 @@ const Header = () => {
         <div className="info">
           <h3>Hey there, I'm <span>Max</span></h3>
           <p> I'm a cyber security analyst and professional web developer based out of Nairobi, Kenya. I'm building a 
-              portfolio of internet businesses and sharing my journey to $1000 in monthly revenue.
+              portfolio of internet businesses and sharing my journey to $10k in monthly revenue.
               <a href='#subscribe2newsletter'> Follow my journey here.</a> 
           </p>
           {/*<button className='btn btn-hero'>Login/Register</button>*/}
