@@ -5,7 +5,7 @@ const Article = ({ imgUrl, date, text, intro }) => (
   <Wrapper>
     <div className="blog-container-article">
       <div className="blog-container-article-image">
-        <img src={imgUrl} alt="blog_image" />
+      
       </div>
       <div className="blog-container-article-content">
         <h3>{text}</h3>

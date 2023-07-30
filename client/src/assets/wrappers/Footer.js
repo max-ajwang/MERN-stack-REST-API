@@ -6,7 +6,7 @@ const Wrapper = styled.footer`
     flex-direction: column;
     justify-content: center;
     background: var(--navy-blue);
-    margin: 0, 0, 0, 0;
+    margin: 5rem;
     border-top: 0.005rem solid var(--dark-yellow);
   }
 

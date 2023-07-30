@@ -11,6 +11,7 @@ const Wrapper = styled.div`
     flex-direction: column;
     color: black;
     margin-top: 1.5px;
+    margin-bottom: 3.5rem;
   }
   
   .blog-container {
@@ -33,9 +34,8 @@ const Wrapper = styled.div`
   }
 
   .blog-container-articles {
-    flex: 1;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
     grid-gap: 2rem;
   }
   

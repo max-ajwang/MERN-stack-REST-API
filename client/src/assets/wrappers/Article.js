@@ -5,17 +5,17 @@ const Wrapper = styled.div`
         width: 100%;
         height: 100%;
         display: flex;
-        flex-direction: column;
-        background: var(--dark-yellow);
+        flex-direction: row;
+        color: white;
         border-radius: var(--borderRadius);
-        box-shadow: var(--shadow-4);
         padding: 20px;
     }
 
     .blog-container-article-image {
-        width: 100%;
-        height: 100%;
-        background: var(--color-bg);
+        width: 95px;
+        height: 75px;
+        background: var(--dark-yellow);
+        margin-right: 1rem;
     }
 
     .blog-container-article-image img {
@@ -34,7 +34,7 @@ const Wrapper = styled.div`
         font-family: var(--bodyFont);
         font-size: 15px;
         line-height: 1.5;
-        color: black;
+        color: white;
     }
 
     .blog-container-article-content h3 {
@@ -42,7 +42,7 @@ const Wrapper = styled.div`
         font-size: 1.225rem;
         font-weight: 800;
         line-height: 1.5;
-        color: var(--black);
+        color: var(--white);
         cursor: pointer;
         margin-top: 1.5rem;
         margin-bottom: 0px;
