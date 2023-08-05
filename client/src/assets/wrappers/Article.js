@@ -8,7 +8,6 @@ const Wrapper = styled.div`
         flex-direction: row;
         color: white;
         border-radius: var(--borderRadius);
-        padding: 20px;
     }
 
     .blog-container-article-image {
@@ -16,11 +15,6 @@ const Wrapper = styled.div`
         height: 75px;
         background: var(--dark-yellow);
         margin-right: 1rem;
-    }
-
-    .blog-container-article-image img {
-        width: 100%;
-        height: 100%;
     }
 
     .blog-container-article-content {
@@ -33,29 +27,29 @@ const Wrapper = styled.div`
     .blog-container-article-content p {
         font-family: var(--bodyFont);
         font-size: 15px;
-        line-height: 1.5;
         color: white;
+        margin-top: 0rem;
+        margin-bottom: .15rem;
     }
 
     .blog-container-article-content h3 {
         font-family: var(--bodyFont);
         font-size: 1.225rem;
-        font-weight: 800;
-        line-height: 1.5;
+        font-weight: 600;
         color: var(--white);
         cursor: pointer;
-        margin-top: 1.5rem;
         margin-bottom: 0px;
     }
 
     .blog-intro {
-        margin-top: -10px;
-        margin-bottom: 1px;
+        line-height: 1.5;
     }
 
-    .blog-container-article-content p:last-child {
+    .blog-container-article-content a {
         cursor: pointer;
         margin-bottom: 1rem;
+        text-decoration: none;
+        color: var(--dark-yellow);
     }
 
     

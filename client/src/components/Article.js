@@ -8,10 +8,10 @@ const Article = ({ imgUrl, date, text, intro }) => (
       
       </div>
       <div className="blog-container-article-content">
-        <h3>{text}</h3>
         <p>{date}</p>
+        <h3>{text}</h3>
         <p className='blog-intro'>{intro}</p>
-        <p><a href='#FullBlog'>Read Full Article</a></p>
+        <a href='#FullBlog'>Read Full Article</a>
       </div>
     </div>
   </Wrapper>
