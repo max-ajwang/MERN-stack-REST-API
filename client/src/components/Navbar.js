@@ -17,7 +17,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className='navbar-sign'>
-          <a href='./register'>
+          <a href='./subscribe'>
             <button className='btn btn-hero' type='button'>Subscribe</button>
           </a>
         </div>
@@ -41,7 +41,7 @@ const Navbar = () => {
                 <div className='navbar-menu-container-links-sign'>
                   <h4>Get insights delivered to your inbox</h4>
                   <h6>Get our latest insights plus informative content emailed to you</h6>
-                  <a href='./register'>
+                  <a href='./subscribe'>
                     <button className='btn btn-hero' type='button'>Subscribe</button>
                   </a>
                 </div>
@@ -65,9 +65,6 @@ const Navbar = () => {
                 </a>
                 <a href='#'>
                   <p>Entertainment</p>
-                </a>
-                <a href='#'>
-                  <p>Finance</p>
                 </a>
               </div>
             </div>

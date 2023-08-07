@@ -11,7 +11,7 @@ const Header = () => {
           <h3>Hey there, I'm <span>Max</span></h3>
           <p> I'm a cyber security analyst and professional web developer based out of Nairobi, Kenya. I'm building a 
               portfolio of internet businesses here and sharing my journey to $10k in monthly revenue.
-              <a href='./register'> Follow my journey here.</a> 
+              <a href='./subscribe'> Follow my journey here.</a> 
           </p>
           {/*<button className='btn btn-hero'>Login/Register</button>*/}
           <h5>Quick Links</h5>
