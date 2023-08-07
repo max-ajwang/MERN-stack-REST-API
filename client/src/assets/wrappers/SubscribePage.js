@@ -1,10 +1,27 @@
 import styled from 'styled-components'
 
-const Wrapper = styled.section`
-  .logo {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 1.38rem;
+const Wrapper = styled.section` 
+  .subscribe-page {
+    min-height: cals(100vh - var(--nav-height));
+    display: grid;
+    align-items: center;
+    margin-top: 4rem;
+    padding-top: 2.5rem;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .subscription-subheading {
+    font-size: var(--large-text);
+    text-align: center;
+  }
+
+  .link-to-newsletter{
+    color: var(--white);
+    text-align: center;
+    text-decoration: underline;
   }
 
   .form {
@@ -24,7 +41,7 @@ const Wrapper = styled.section`
     color: var(--navy-blue);
   }
 
-  p {
+  .login-register-link {
     margin: 0;
     margin-top: 1rem;
     text-align: center;

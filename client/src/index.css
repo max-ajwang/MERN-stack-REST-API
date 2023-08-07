@@ -51,6 +51,7 @@ html {
     --bodyFont: 'Cabin', Sans-Serif;
     --small-text: 0.875rem;
     --extra-small-text: 0.7em;
+    --large-text: 1.25em;
     /* rest of the vars */
     --backgroundColor: var(--navy-blue);
     --textColor: var(--white);
