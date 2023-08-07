@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react'
 import { Logo, FormRow, Alert } from '../components'
-import Wrapper from '../assets/wrappers/RegisterPage'
+import Wrapper from '../assets/wrappers/SubscribePage'
 import { useAppContext } from '../context/appContext'
 
 const initialState = {
@@ -10,7 +10,7 @@ const initialState = {
   isMember: true,
 }
 
-const Register = () => {
+const Subscribe = () => {
   const [values, setValues] = useState(initialState)
   //global state and useNavigate
   const {isLoading, showAlert, displayAlert} = useAppContext()
@@ -65,4 +65,4 @@ const Register = () => {
   )
 }
 
-export default Register
+export default Subscribe
