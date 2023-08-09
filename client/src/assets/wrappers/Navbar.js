@@ -76,10 +76,10 @@ const Wrapper = styled.header`
 
   .navbar-menu-container p {
     margin: 1rem 0;
+    color: var(--primary-700);
     :hover{
-      color: var(--white);
-      background-color: var(--navy-blue);
-      border-radius: var(--borderRadius);
+      color: var(--dark-yellow);
+      box-shadow: var(--shadow-1);
     }
   }
 

@@ -45,26 +45,17 @@ const Navbar = () => {
                     <button className='btn btn-hero' type='button'>Subscribe</button>
                   </a>
                 </div>
+                <a href='#'>
+                  <p>Home</p>
+                </a>
+                <a href='./portfolio'>
+                  <p>Portfolio</p>
+                </a>
+                <a href='./blog'>
+                  <p>Blog</p>
+                </a>
                 <a href='./about'>
                   <p>About</p>
-                </a>
-                <a href='#'>
-                  <p>Technology</p>
-                </a>
-                <a href='#'>
-                  <p>Finance</p>
-                </a>
-                <a href='#'>
-                  <p>Real Estate</p>
-                </a>
-                <a href='#'>
-                  <p>Agriculture</p>
-                </a>
-                <a href='#'>
-                  <p>Fashion and Apparel</p>
-                </a>
-                <a href='#'>
-                  <p>Entertainment</p>
                 </a>
               </div>
             </div>
