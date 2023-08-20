@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-import { Logo, FormRow, Alert } from '../components'
+import { FormRow, Alert } from '../components'
 import Wrapper from '../assets/wrappers/SubscribePage'
 import { useAppContext } from '../context/appContext'
 
@@ -36,26 +36,25 @@ const Subscribe = () => {
   
   return (
     <Wrapper>
-      <div className='container subscribe-page'>
+      <div className='subscribe-page'>
         <h1>The Road to $1k</h1>
         <p className='subscription-subheading'>Sharing my journey to $1k monthly recurring revenue by building a portfolio of profitable internet businesses</p>
         <a href='./newsletter' className='link-to-newsletter'> Read it here first </a>
-        <form className='form' onSubmit={onSubmit}>
-          <h3>{values.isMember ? 'Login' : 'Register'}</h3>
-          {showAlert && <Alert />}
 
+        <form className='form' onSubmit={onSubmit}>
+          <h4>{values.isMember ? 'Sign In' : 'Register'}</h4>
+          {showAlert && <Alert />}
           {/*name input*/}
           {!values.isMember && (
             <FormRow type='text' name='name' value={values.name} handleChange={handleChange}/>
           )
           }
-          
           {/*email input*/}
           <FormRow type='email' name='email' value={values.email} handleChange={handleChange}/>
           {/*password input*/}
           <FormRow type='password' name='password' value={values.password} handleChange={handleChange}/>
           <button type='submit' className='btn btn-block'>
-            Submit
+            Sign In
           </button>
           <p className='login-register-link'>
             {values.isMember ? 'Not a member yet?' : 'Already a member?'}

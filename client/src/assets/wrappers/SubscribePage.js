@@ -2,11 +2,10 @@ import styled from 'styled-components'
 
 const Wrapper = styled.section` 
   .subscribe-page {
-    min-height: cals(100vh - var(--nav-height));
     display: grid;
     align-items: center;
-    margin-top: 4rem;
-    padding-top: 2.5rem;
+    margin-top: .2rem;
+    padding-top: 2rem;
   }
 
   h1 {
@@ -14,7 +13,8 @@ const Wrapper = styled.section`
   }
 
   .subscription-subheading {
-    font-size: var(--large-text);
+    margin: 0;
+    padding: 0 0 .5rem 0;
     text-align: center;
   }
 
@@ -25,6 +25,7 @@ const Wrapper = styled.section`
   }
 
   .form {
+    margin-top: 1.5rem;
     max-width: 400px;
     border-top: 5px solid var(--dark-yellow);
     display: grid;
@@ -36,7 +37,7 @@ const Wrapper = styled.section`
     background-color: white;
   }
 
-  h3 {
+  h4 {
     text-align: center;
     color: var(--navy-blue);
   }
