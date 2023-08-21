@@ -1,3 +1,4 @@
+import cors from 'cors'
 import 'express-async-errors'
 import express from 'express';
 const app = express();
@@ -16,6 +17,7 @@ import earningsRouter from './routes/earningsRoutes.js';
 import notFoundMiddleware from './middleware/not-found.js';
 import errorHandlerMiddleware from './middleware/error-handler.js';
 
+app.use(cors())
 app.use(express.json())
 
 app.get('/', (req, res) => {

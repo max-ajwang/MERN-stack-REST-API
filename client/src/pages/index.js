@@ -1,8 +1,13 @@
-import Landing from './Landing';
-import Error from './Error';
-import Subscribe from './Subscribe';
-import About from './About';
-import Portfolio from './Portfolio';
-import Blog from './Blog';
-
-export { Landing, Error, Subscribe, About, Portfolio, Blog }
+export { default as DashboardLayout } from "./DashboardLayout";
+export { default as Landing } from "./Landing";
+export { default as Blog } from "./Blog";
+export { default as HomeLayout } from "./HomeLayout";
+export { default as Register } from "./Register";
+export { default as Login } from "./Login";
+export { default as Error } from "./Error";
+export { default as Stats } from "./Stats";
+export { default as AllIncomes } from "./AllIncomes";
+export { default as AddIncome } from "./AddIncome";
+export { default as EditIncome } from "./EditIncome";
+export { default as Profile } from "./Profile";
+export { default as Admin } from "./Admin";
