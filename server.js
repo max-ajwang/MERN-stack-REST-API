@@ -19,7 +19,7 @@ import earningsRouter from "./routes/earningsRoutes.js";
 
 // Middleware
 import notFoundMiddleware from "./middleware/not-found.js";
-import errorHandlerMiddleware from "./middleware/error-handler.js";
+import errorHandlerMiddleware from "./middleware/errorHandlerMiddleware.js";
 
 app.use(cors());
 app.use(express.json());
