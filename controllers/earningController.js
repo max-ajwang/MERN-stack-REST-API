@@ -1,13 +1,14 @@
 import Earning from "../models/EarningModel.js";
+import { StatusCodes } from "http-status-codes";
 
 const getAllEarnings = async (req, res) => {
   const earnings = await Earning.find({});
-  res.status(200).json({ earnings });
+  res.status(StatusCodes.OK).json({ earnings });
 };
 
 const createEarning = async (req, res) => {
   const earning = await Earning.create(req.body);
-  res.status(201).json({ earning });
+  res.status(StatusCodes.CREATED).json({ earning });
 };
 
 const getEarning = async (req, res) => {
@@ -18,7 +19,7 @@ const getEarning = async (req, res) => {
   if (!earning) {
     return res.status(404).json({ msg: `no earning with id ${id}` });
   }
-  res.status(200).json({ earning });
+  res.status(StatusCodes.OK).json({ earning });
 };
 
 const updateEarning = async (req, res) => {
@@ -32,7 +33,9 @@ const updateEarning = async (req, res) => {
     return res.status(404).json({ msg: `no earning with id ${id}` });
   }
 
-  res.status(200).json({ msg: "earning modified", earning: updatedEarning });
+  res
+    .status(StatusCodes.OK)
+    .json({ msg: "earning modified", earning: updatedEarning });
 };
 
 const deleteEarning = async (req, res) => {
@@ -43,7 +46,9 @@ const deleteEarning = async (req, res) => {
     return res.status(404).json({ msg: `no earning with id{id}` });
   }
 
-  res.status(200).json({ msg: "job deleted", earning: removedEarning });
+  res
+    .status(StatusCodes.OK)
+    .json({ msg: "job deleted", earning: removedEarning });
 };
 
 const showStats = async (req, res) => {
