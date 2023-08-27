@@ -1,16 +1,17 @@
-import express from 'express'
-const router = express.Router()
+import express from "express";
+const router = express.Router();
 
 import {
-    createEarning, 
-    deleteEarning, 
-    getAllEarnings, 
-    updateEarning, 
-    showStats
-} from '../controllers/earningsController.js'
+  createEarning,
+  deleteEarning,
+  getAllEarnings,
+  getEarning,
+  updateEarning,
+  showStats,
+} from "../controllers/earningController.js";
 
-router.route('/').post(createEarning).get(getAllEarnings)
-router.route('/stats').get(showStats)
-router.route('/:id').delete(deleteEarning).patch(updateEarning)
+router.route("/").post(createEarning).get(getAllEarnings);
+router.route("/stats").get(showStats);
+router.route("/:id").get(getEarning).patch(updateEarning).delete(deleteEarning);
 
-export default router
+export default router;

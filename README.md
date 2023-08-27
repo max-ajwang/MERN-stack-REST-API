@@ -1687,7 +1687,7 @@ rd /s /q .git
 - Windows commands were shared by students and I have not personally tested them.
 - git status should return :
   "fatal: Not a git repository (or any of the parent directories): .git"
-- create jobify directory
+- create ajnymax directory
 - copy/paste client
 - move README to root
 
