@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import { EARNING_STATUS, EARNING_TYPE } from "../utils/constants";
 
 const EarningSchema = new mongoose.Schema(
   {
@@ -6,13 +7,13 @@ const EarningSchema = new mongoose.Schema(
     position: String,
     earningStatus: {
       type: String,
-      enum: ["paid", "not-paid", "pending"],
-      default: "pending",
+      enum: Object.values(EARNING_STATUS),
+      default: EARNING_STATUS.PENDING,
     },
     earningType: {
       type: String,
-      enum: ["full-time", "part-time", "passive"],
-      default: "full-time",
+      enum: Object.values(EARNING_TYPE),
+      default: EARNING_TYPE.FULL_TIME,
     },
     earningLocation: {
       type: String,

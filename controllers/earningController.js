@@ -1,6 +1,5 @@
 import Earning from "../models/EarningModel.js";
 import { StatusCodes } from "http-status-codes";
-import { NotFoundError } from "../errors/customErrors.js";
 
 const getAllEarnings = async (req, res) => {
   const earnings = await Earning.find({});
@@ -13,23 +12,18 @@ const createEarning = async (req, res) => {
 };
 
 const getEarning = async (req, res) => {
-  const { id } = req.params;
-
-  const earning = await Earning.findById(id);
-
-  if (!earning) throw new NotFoundError(`no earning with id ${id}`);
-
+  const earning = await Earning.findById(req.params.id);
   res.status(StatusCodes.OK).json({ earning });
 };
 
 const updateEarning = async (req, res) => {
-  const { id } = req.params;
-
-  const updatedEarning = await Earning.findByIdAndUpdate(id, req.body, {
-    new: true,
-  });
-
-  if (!updatedEarning) throw new NotFoundError(`no earning with id ${id}`);
+  const updatedEarning = await Earning.findByIdAndUpdate(
+    req.params.id,
+    req.body,
+    {
+      new: true,
+    }
+  );
 
   res
     .status(StatusCodes.OK)
@@ -37,18 +31,11 @@ const updateEarning = async (req, res) => {
 };
 
 const deleteEarning = async (req, res) => {
-  const { id } = req.params;
-  const removedEarning = await Earning.findByIdAndDelete(id);
-
-  if (!removedEarning) throw new NotFoundError(`no earning with id ${id}`);
+  const removedEarning = await Earning.findByIdAndDelete(req.params.id);
 
   res
     .status(StatusCodes.OK)
-    .json({ msg: "job deleted", earning: removedEarning });
-};
-
-const showStats = async (req, res) => {
-  res.send("show stats");
+    .json({ msg: "earning deleted", earning: removedEarning });
 };
 
 export {
@@ -57,5 +44,4 @@ export {
   getAllEarnings,
   getEarning,
   updateEarning,
-  showStats,
 };
