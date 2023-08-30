@@ -3,7 +3,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import {
   HomeLayout,
   Landing,
-  Blog,
   Register,
   Login,
   DashboardLayout,

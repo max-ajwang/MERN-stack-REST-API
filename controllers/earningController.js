@@ -2,11 +2,12 @@ import Earning from "../models/EarningModel.js";
 import { StatusCodes } from "http-status-codes";
 
 const getAllEarnings = async (req, res) => {
-  const earnings = await Earning.find({});
+  const earnings = await Earning.find({ createdBy: req.user.userId });
   res.status(StatusCodes.OK).json({ earnings });
 };
 
 const createEarning = async (req, res) => {
+  req.body.createdBy = req.user.userId;
   const earning = await Earning.create(req.body);
   res.status(StatusCodes.CREATED).json({ earning });
 };

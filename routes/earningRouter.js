@@ -7,7 +7,6 @@ import {
   getAllEarnings,
   getEarning,
   updateEarning,
-  showStats,
 } from "../controllers/earningController.js";
 
 import {

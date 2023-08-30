@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { EARNING_STATUS, EARNING_TYPE } from "../utils/constants";
+import { EARNING_STATUS, EARNING_TYPE } from "../utils/constants.js";
 
 const EarningSchema = new mongoose.Schema(
   {
@@ -18,6 +18,10 @@ const EarningSchema = new mongoose.Schema(
     earningLocation: {
       type: String,
       default: "my city",
+    },
+    createdBy: {
+      type: mongoose.Types.ObjectId,
+      ref: "User",
     },
   },
   { timestamps: true }
