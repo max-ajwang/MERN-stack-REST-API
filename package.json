@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Project in Action - [Labeka](https://www.maxajwang.com/)",
+  "description": "Project in Action - [Portfolio](https://www.maxajwang.com/)",
   "main": "index.js",
   "type": "module",
   "scripts": {

@@ -1,6 +1,6 @@
 import { StatusCodes } from "http-status-codes";
 import User from "../models/UserModel.js";
-import Earning from "../models/EarningModel.js";
+import Income from "../models/IncomeModel.js";
 import cloudinary from "cloudinary";
 import { formatImage } from "../middleware/multerMiddleware.js";
 
@@ -11,8 +11,8 @@ export const getCurrentUser = async (req, res) => {
 };
 export const getApplicationStats = async (req, res) => {
   const users = await User.countDocuments();
-  const earnings = await Earning.countDocuments();
-  res.status(StatusCodes.OK).json({ users, jobs });
+  const incomes = await Income.countDocuments();
+  res.status(StatusCodes.OK).json({ users, incomes });
 };
 export const updateUser = async (req, res) => {
   const newUser = { ...req.body };

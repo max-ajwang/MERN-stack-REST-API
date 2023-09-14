@@ -4,9 +4,9 @@ import {
   NotFoundError,
   UnauthorizedError,
 } from "../errors/customErrors.js";
-import { EARNING_STATUS, EARNING_TYPE } from "../utils/constants.js";
+import { INCOME_STATUS, INCOME_TYPE } from "../utils/constants.js";
 import mongoose from "mongoose";
-import Earning from "../models/EarningModel.js";
+import Income from "../models/IncomeModel.js";
 import User from "../models/UserModel.js";
 
 const withValidationErrors = (validateValues) => {
@@ -19,7 +19,7 @@ const withValidationErrors = (validateValues) => {
 
         const firstMessage = errorMessages[0];
         console.log(Object.getPrototypeOf(firstMessage));
-        if (errorMessages[0].startsWith("no earning")) {
+        if (errorMessages[0].startsWith("no income")) {
           throw new NotFoundError(errorMessages);
         }
         if (errorMessages[0].startsWith("not authorized")) {
@@ -32,17 +32,15 @@ const withValidationErrors = (validateValues) => {
   ];
 };
 
-export const validateEarningInput = withValidationErrors([
+export const validateIncomeInput = withValidationErrors([
   body("company").notEmpty().withMessage("company is required"),
   body("position").notEmpty().withMessage("position is required"),
-  body("earningLocation")
-    .notEmpty()
-    .withMessage("earning location is required"),
-  body("earningStatus")
-    .isIn(Object.values(EARNING_STATUS))
+  body("incomeLocation").notEmpty().withMessage("income location is required"),
+  body("incomeStatus")
+    .isIn(Object.values(INCOME_STATUS))
     .withMessage("invalid status value"),
-  body("earningType")
-    .isIn(Object.values(EARNING_TYPE))
+  body("incomeType")
+    .isIn(Object.values(INCOME_TYPE))
     .withMessage("invalid type value"),
 ]);
 
@@ -50,10 +48,10 @@ export const validateIdParam = withValidationErrors([
   param("id").custom(async (value, { req }) => {
     const isValidId = mongoose.Types.ObjectId.isValid(value);
     if (!isValidId) throw new BadRequestError("invalid MongoDB id");
-    const earning = await Earning.findById(value);
-    if (!earning) throw new NotFoundError(`no earning with id ${value}`);
+    const income = await Income.findById(value);
+    if (!income) throw new NotFoundError(`no income with id ${value}`);
     const isAdmin = req.user.role === "admin";
-    const isOwner = req.user.userId === earning.createdBy.toString();
+    const isOwner = req.user.userId === income.createdBy.toString();
 
     if (!isAdmin && !isOwner)
       throw new UnauthorizedError("not authorized to access this route");

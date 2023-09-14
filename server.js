@@ -11,7 +11,7 @@ import helmet from "helmet";
 import mongoSanitize from "express-mongo-sanitize";
 
 // routers
-import earningRouter from "./routes/earningRouter.js";
+import incomeRouter from "./routes/incomeRouter.js";
 import authRouter from "./routes/authRouter.js";
 import userRouter from "./routes/userRouter.js";
 // public
@@ -47,7 +47,7 @@ app.get("/api/v1/test", (req, res) => {
   res.json({ msg: "test route" });
 });
 
-app.use("/api/v1/earnings", authenticateUser, earningRouter);
+app.use("/api/v1/incomes", authenticateUser, incomeRouter);
 app.use("/api/v1/users", authenticateUser, userRouter);
 app.use("/api/v1/auth", authRouter);
 
@@ -61,7 +61,7 @@ app.use("*", (req, res) => {
 
 app.use(errorHandlerMiddleware);
 
-const port = process.env.PORT || 5100;
+const port = process.env.PORT || 5000;
 
 try {
   await mongoose.connect(process.env.MONGO_URL);
