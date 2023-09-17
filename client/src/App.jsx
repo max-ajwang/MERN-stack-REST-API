@@ -18,6 +18,7 @@ import { action as registerAction } from "./pages/Register";
 import { action as loginAction } from "./pages/Login";
 import { loader as dashboardLoader } from "./pages/DashboardLayout";
 import { action as addIncomeAction } from "./pages/AddIncome";
+import { loader as allIncomesLoader } from "./pages/AllIncomes";
 
 export const checkDefaultTheme = () => {
   const isDarkTheme = localStorage.getItem("darkTheme") === "true";
@@ -64,6 +65,7 @@ const router = createBrowserRouter([
           {
             path: "all-incomes",
             element: <AllIncomes />,
+            loader: allIncomesLoader,
           },
           {
             path: "profile",
