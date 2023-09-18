@@ -17,6 +17,7 @@ export const loader = async ({ request }) => {
 };
 
 const AllIncomesContext = createContext();
+
 const AllIncomes = () => {
   const { data } = useLoaderData();
 

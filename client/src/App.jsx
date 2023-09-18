@@ -12,6 +12,7 @@ import {
   AllIncomes,
   Profile,
   Admin,
+  EditIncome,
 } from "./pages";
 
 import { action as registerAction } from "./pages/Register";
@@ -19,6 +20,9 @@ import { action as loginAction } from "./pages/Login";
 import { loader as dashboardLoader } from "./pages/DashboardLayout";
 import { action as addIncomeAction } from "./pages/AddIncome";
 import { loader as allIncomesLoader } from "./pages/AllIncomes";
+import { loader as editIncomeLoader } from "./pages/EditIncome";
+import { action as editIncomeAction } from "./pages/EditIncome";
+import { action as deleteIncomeAction } from "./pages/DeleteIncome";
 
 export const checkDefaultTheme = () => {
   const isDarkTheme = localStorage.getItem("darkTheme") === "true";
@@ -74,6 +78,16 @@ const router = createBrowserRouter([
           {
             path: "admin",
             element: <Admin />,
+          },
+          {
+            path: "edit-income/:id",
+            element: <EditIncome />,
+            loader: editIncomeLoader,
+            action: editIncomeAction,
+          },
+          {
+            path: "delete-income/:id",
+            action: deleteIncomeAction,
           },
         ],
       },
