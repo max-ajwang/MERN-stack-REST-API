@@ -23,6 +23,7 @@ import { loader as allIncomesLoader } from "./pages/AllIncomes";
 import { loader as editIncomeLoader } from "./pages/EditIncome";
 import { action as editIncomeAction } from "./pages/EditIncome";
 import { action as deleteIncomeAction } from "./pages/DeleteIncome";
+import { loader as adminLoader } from "./pages/Admin";
 
 export const checkDefaultTheme = () => {
   const isDarkTheme = localStorage.getItem("darkTheme") === "true";
@@ -78,6 +79,7 @@ const router = createBrowserRouter([
           {
             path: "admin",
             element: <Admin />,
+            loader: adminLoader,
           },
           {
             path: "edit-income/:id",
