@@ -10,6 +10,7 @@ import {
   checkForTestUser,
 } from "../middleware/authMiddleware.js";
 import upload from "../middleware/multerMiddleware.js";
+
 const router = Router();
 
 router.get("/current-user", getCurrentUser);

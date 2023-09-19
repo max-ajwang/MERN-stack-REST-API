@@ -7,3 +7,4 @@ export { default as FormRowSelect } from "./FormRowSelect";
 export { default as IncomesContainer } from "./IncomesContainer";
 export { default as SearchContainer } from "./SearchContainer";
 export { default as StatItem } from "./StatItem";
+export { default as SubmitBtn } from "./SubmitBtn";

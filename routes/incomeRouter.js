@@ -13,12 +13,16 @@ import {
   validateIncomeInput,
   validateIdParam,
 } from "../middleware/validationMiddleware.js";
+import { checkForTestUser } from "../middleware/authMiddleware.js";
 
-router.route("/").get(getAllIncomes).post(validateIncomeInput, createIncome);
+router
+  .route("/")
+  .get(getAllIncomes)
+  .post(checkForTestUser, validateIncomeInput, createIncome);
 router
   .route("/:id")
   .get(validateIdParam, getIncome)
-  .patch(validateIncomeInput, validateIdParam, updateIncome)
-  .delete(validateIdParam, deleteIncome);
+  .patch(checkForTestUser, validateIncomeInput, validateIdParam, updateIncome)
+  .delete(checkForTestUser, validateIdParam, deleteIncome);
 
 export default router;
