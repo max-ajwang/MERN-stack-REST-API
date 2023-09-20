@@ -7,6 +7,7 @@ import {
   getAllIncomes,
   getIncome,
   updateIncome,
+  showStats,
 } from "../controllers/incomeController.js";
 
 import {
@@ -19,6 +20,9 @@ router
   .route("/")
   .get(getAllIncomes)
   .post(checkForTestUser, validateIncomeInput, createIncome);
+
+router.route("/stats").get(showStats);
+
 router
   .route("/:id")
   .get(validateIdParam, getIncome)
