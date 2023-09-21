@@ -5,10 +5,15 @@ import { useLoaderData } from "react-router-dom";
 import { useContext, createContext } from "react";
 
 export const loader = async ({ request }) => {
+  const params = Object.fromEntries([
+    ...new URL(request.url).searchParams.entries(),
+  ]);
+
   try {
-    const { data } = await customFetch.get("/incomes");
+    const { data } = await customFetch.get("/incomes", { params });
     return {
       data,
+      searchValues: { ...params },
     };
   } catch (error) {
     toast.error(error?.response?.data?.msg);
@@ -19,10 +24,10 @@ export const loader = async ({ request }) => {
 const AllIncomesContext = createContext();
 
 const AllIncomes = () => {
-  const { data } = useLoaderData();
+  const { data, searchValues } = useLoaderData();
 
   return (
-    <AllIncomesContext.Provider value={{ data }}>
+    <AllIncomesContext.Provider value={{ data, searchValues }}>
       <SearchContainer />
       <IncomesContainer />
     </AllIncomesContext.Provider>
