@@ -10,9 +10,9 @@ const Landing = () => {
       </nav>
       <div className="container page">
         <div className="info">
-          <h1>
-            Road to <span>$1K in MRR: </span> the App
-          </h1>
+          <h2>
+            Road to <span>$1K in MRR</span>
+          </h2>
           <p>
             Hey there, I'm Max. I'm a cyber security analyst and professional
             web developer based out of Nairobi, Kenya. I'm building a portfolio

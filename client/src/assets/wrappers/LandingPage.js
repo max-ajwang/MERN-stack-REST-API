@@ -15,8 +15,8 @@ const Wrapper = styled.section`
     align-items: center;
     margin-top: -3rem;
   }
-  h1 {
-    font-weight: 700;
+  h2 {
+    font-weight: 500;
     span {
       color: var(--primary-500);
     }
