@@ -1,6 +1,6 @@
 #### Complete App
 
-[ajnymax](https://ajnymax.live/)
+[M2R](https://m2r.onrender.com/)
 
 #### Create React APP
 
@@ -32,7 +32,7 @@ npm run dev
 
 ```jsx
 const App = () => {
-  return <h1>ajnymax App</h1>;
+  return <h1>M2R App</h1>;
 };
 export default App;
 ```
@@ -65,7 +65,7 @@ export default App;
 ```html
 <head>
   <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-  <title>ajynmax</title>
+  <title>M2R</title>
 </head>
 ```
 
